@@ -1,0 +1,18 @@
+name: KittyCore
+version: ${project.version}
+main: spigot.plugin.KittyCore
+api-version: 1.17
+authors: [ UnboxTheCat ]
+description: A flawless plugin that enhances your gaming experience.
+commands:
+  debug:
+    usage: /<command>
+    description: debug realistic player status
+
+  multiverse:
+    usage: /<command> world_name
+    description: create and new world and tp you to there!, requires OP
+
+  pvp:
+    usage: /<command> true/false
+    description: change player's pvp status
